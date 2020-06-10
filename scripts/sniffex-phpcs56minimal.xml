@@ -63,6 +63,10 @@
         <exclude name="PHPCompatibility.ParameterValues.ForbiddenStripTagsSelfClosingXHTML"/>
         <exclude name="PHPCompatibility.ParameterValues.NewPackFormat"/>
         <exclude name="PHPCompatibility.TextStrings.NewUnicodeEscapeSequence"/>
+        <exclude name="PHPCompatibility.ControlStructures.NewExecutionDirectives"/>
+        <exclude name="PHPCompatibility.Operators.NewOperators.t_coalesceFound"/>
+        <exclude name="PHPCompatibility.FunctionDeclarations.NewReturnTypeDeclarations"/>
+        <exclude name="PHPCompatibility.FunctionDeclarations.NewParamTypeDeclarations"/>
     </rule>
 
     <!-- Known libraries with conditional older version compatibility code: FCKeditor, PHPmailer  -->
